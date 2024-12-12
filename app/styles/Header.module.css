@@ -1,0 +1,46 @@
+.header {
+  background: #ffeaf4;
+  padding: 0 80px;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  color: #ff7fa7;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px;
+  padding: 0;
+  font-family: "Ribeye", cursive;
+  font-size: 2.5rem;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header nav ul a {
+  color: #ff7fa7;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header li {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.whiteBackground {
+  background-color: #ffffff;
+}

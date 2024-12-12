@@ -1,0 +1,41 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #ffeaf4;
+}
+
+.pageWrapper h1 {
+  font-size: 2.5rem;
+  color: #ff7fa7;
+  margin-bottom: 10px;
+}
+
+.pageWrapper p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.pageWrapper .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.pageWrapper button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff7fa7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pageWrapper button:hover {
+  background-color: #ff99b3;
+}

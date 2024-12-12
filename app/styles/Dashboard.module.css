@@ -1,0 +1,108 @@
+.pageWrapper {
+  padding: 20px;
+  background-color: #ffeaf4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageWrapper h1 {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #ff7fa7;
+}
+
+.postForm {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.postForm textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  resize: none;
+}
+
+.postForm button {
+  background-color: #ff7fa7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  margin-bottom: 40px;
+}
+
+.postForm button:hover {
+  background-color: #ff6f97;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.postsContainer {
+  margin-bottom: 50px; /* Adds spacing below the last post */
+}
+
+.post {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.post small {
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.likeSection {
+  margin-top: 10px;
+}
+
+.likeButton {
+  background-color: transparent;
+  color: #ff7fa7;
+  border: 1px solid #ff7fa7;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.likeButton:hover {
+  background-color: #ff7fa7;
+  color: white;
+}
+
+.likeCount {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}

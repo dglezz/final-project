@@ -1,0 +1,88 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  padding: 20px;
+}
+
+.formContainer {
+  width: 400px;
+  background: #ffeaf4;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.formContainer h2 {
+  margin-bottom: 20px;
+
+  font-size: 1.5rem;
+}
+
+.formContainer label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+}
+
+.formContainer input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formContainer button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff7fa7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+.formContainer button:hover {
+  background-color: #ff99b3;
+}
+
+.formContainer a {
+  color: #ff7fa7;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.formContainer a:hover {
+  text-decoration: underline;
+}
+
+.formContainer .footer {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footerText {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.footerText a {
+  color: #ff7fa7;
+  text-decoration: none;
+}
+
+.footerText a:hover {
+  text-decoration: underline;
+}
