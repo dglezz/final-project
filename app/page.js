@@ -12,6 +12,8 @@ export default function Home() {
     if (authUser) router.push("/dashboard");
   }, [authUser]);
 
+  if (typeof window === "undefined") return null;
+
   return (
     <div className={styles.pageWrapper}>
       <h1>Welcome to Hobbying</h1>

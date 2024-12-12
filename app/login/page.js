@@ -19,7 +19,8 @@ export default function Login() {
         <h2>Log In</h2>
         <LoginForm />
         <div className={styles.footer}>
-          Don't have an account? <a href="/create">Sign up here</a>
+          {`Don't have an account?`}
+          <a href="/create">Sign up here</a>
         </div>
       </div>
     </div>
